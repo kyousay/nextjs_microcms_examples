@@ -18,6 +18,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 	return { props: { data }, revalidate: 30}
 }
 
+
 export default function Articles(props: any) {
   return (
     <div>
